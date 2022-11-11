@@ -10,6 +10,9 @@
     font-weight: 300;
 }
 
+
+/*NAVBAR - HEADER*/
+
 .logo-navbar {
     scale: 140%;
     
@@ -20,10 +23,31 @@ header {
 }
 
 .nav-link {
+    margin-left: 7px;
+    margin-right: 10px;
     font-size: 20px;
-    color: white;
+    color: rgb(37, 37, 37);
+    border-radius: 16px;
+
+    &:hover {
+        margin-left: 7px;
+        margin-right: 10px;
+        background-color: #ffffff;
+        font-weight: 600;
+        color: rgb(0, 183, 255);
+        border-radius: 16px;
+    }
 }
 
 .navbar {
     background: linear-gradient(0.25turn, #ffffff, #6ac0eb, #1bb5f7);
+}
+
+.navbar-toggler {
+    color: #ffffff;
+}
+
+.navbar-toggler-icon {
+    scale: 150%;
+    background: url(../imgs/menu.svg);
 }
