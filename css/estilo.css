@@ -9,4 +9,12 @@
   font-weight: 300;
 }
 
+header {
+  margin-bottom: 130px;
+}
+
+.nav-link {
+  font-size: 20px;
+}
+
 /*# sourceMappingURL=estilo.css.map */
