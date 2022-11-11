@@ -11,7 +11,7 @@
 }
 
 
-/*NAVBAR - HEADER*/
+/*NAVBAR - HEADER ---------------------------------------------------------------------------------------------------------------------------*/
 
 .logo-navbar {
     scale: 140%;
@@ -51,6 +51,31 @@ header {
     background: url(../imgs/menu.svg);
 }
 
+
+
+
+
+
+/*GALERIA-ZOOM IMAGENES ---------------------------------------------------------------------------------------------------------------------*/
+.img-hover-zoom {
+    cursor: pointer;
+    width: 500px;
+    overflow: hidden;
+}
+
+.img-hover-zoom img {
+    transition: transform .5s ease;
+}
+
+.img-hover-zoom:hover img {
+    transform: scale(1.15);
+}
+
+
+
+
+
+/*FOOTER-LOGOS-REDES ------------------------------------------------------------------------------------------------------------------------*/
 .icono-redes {
     padding-left: 0px;
     width: 50px;
