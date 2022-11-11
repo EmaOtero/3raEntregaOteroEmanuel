@@ -10,7 +10,8 @@
     font-weight: 300;
 }
 
-.logo-nav {
+.logo-navbar {
+    scale: 140%;
     
 }
 
@@ -20,4 +21,9 @@ header {
 
 .nav-link {
     font-size: 20px;
+    color: white;
+}
+
+.navbar {
+    background: linear-gradient(0.25turn, #ffffff, #6ac0eb, #1bb5f7);
 }
