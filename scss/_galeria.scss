@@ -1,0 +1,15 @@
+
+/*GALERIA-ZOOM IMAGENES ---------------------------------------------------------------------------------------------------------------------*/
+.img-hover-zoom {
+    cursor: pointer;
+    width: 500px;
+    overflow: hidden;
+}
+
+.img-hover-zoom img {
+    transition: transform .5s ease;
+}
+
+.img-hover-zoom:hover img {
+    transform: scale(1.15);
+}

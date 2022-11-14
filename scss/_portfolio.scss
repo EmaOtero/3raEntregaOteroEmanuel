@@ -1,0 +1,9 @@
+/*HOVER PORTFOLIO----------------------------------------------------------------------------------------------------------------------------*/
+.card:hover {
+    cursor: pointer;
+    background-color: rgb(48, 162, 255);
+    transform: scale(1.010);
+    }
+
+.card {
+min-width: 500px;}
