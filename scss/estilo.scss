@@ -76,8 +76,12 @@ header {
 .card:hover {
     cursor: pointer;
     background-color: rgb(48, 162, 255);
-    transform: scale(1);
+    transform: scale(1.010);
     }
+
+.card {
+    width: 600px;
+}
 
 
 

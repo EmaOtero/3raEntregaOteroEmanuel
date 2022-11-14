@@ -66,7 +66,11 @@ header {
 .card:hover {
   cursor: pointer;
   background-color: rgb(48, 162, 255);
-  transform: scale(1);
+  transform: scale(1.01);
+}
+
+.card {
+  width: 600px;
 }
 
 /*FOOTER-LOGOS-REDES ------------------------------------------------------------------------------------------------------------------------*/
