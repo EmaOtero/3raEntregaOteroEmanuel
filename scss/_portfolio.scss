@@ -7,3 +7,56 @@
 
 .card {
 min-width: 400px;}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+
+.card {
+    background-image: url(https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/2d0d55149806423.Y3JvcCw1MTQyLDQwMjIsMjkyLDA.jpg);
+    background-size: contain;
+    cursor: pointer;
+}
+
+.card-body {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 46%);
+    opacity: 0;
+    transition: opacity  0.5s ease 0s;
+}
+
+.card-body:hover {
+    opacity: 1;
+}
+
+.logos-card {
+    max-width: 18px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.titulo-card {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.titulo-card a {
+    text-decoration: none;
+}
+
+.subt-card {
+    color: white;
+    font-weight: normal;
+    font-size: 0.8rem;
+}
+
+.stats-card {
+    color: white;
+    font-weight: normal;
+}
