@@ -18,13 +18,16 @@ a {
 }
 
 .card {
-    background-image: url(https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/2d0d55149806423.Y3JvcCw1MTQyLDQwMjIsMjkyLDA.jpg);
     background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
     cursor: pointer;
+    height: 250px !important; 
+    width:300px !important; 
 }
 
 .card-body {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 46%);
+    background: linear-gradient(0deg, rgba(0, 90, 147, 0.61) 0%, rgba(95, 215, 255, 0) 46%);
     opacity: 0;
     transition: opacity  0.5s ease 0s;
 }
