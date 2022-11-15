@@ -140,6 +140,10 @@ a {
   padding: 3px;
 }
 
+.bajada {
+  margin-left: 2%;
+}
+
 * {
   font-family: "Roboto" !important;
 }
