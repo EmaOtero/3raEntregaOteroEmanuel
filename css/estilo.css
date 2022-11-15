@@ -132,6 +132,14 @@ a {
   overflow: hidden;
 }
 
+.carousel {
+  max-height: 600px;
+}
+
+.container-fluid {
+  padding: 3px;
+}
+
 * {
   font-family: "Roboto" !important;
 }
