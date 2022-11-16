@@ -11,8 +11,12 @@
 /*FOOTER-LOGOS-REDES ------------------------------------------------------------------------------------------------------------------------*/
 .icono-redes {
   padding-left: 0px;
-  width: 50px;
+  width: 40px;
   filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3));
+}
+
+.text {
+  margin-top: 100px;
 }
 
 /*GALERIA-ZOOM IMAGENES ---------------------------------------------------------------------------------------------------------------------*/
@@ -77,7 +81,7 @@ header {
 }
 
 .card {
-  min-width: 400px;
+  min-width: 500px;
 }
 
 * {
@@ -132,20 +136,6 @@ a {
 .stats-card {
   color: white;
   font-weight: normal;
-}
-
-.slide {
-  min-width: 300px;
-  max-width: 1920px;
-  overflow: hidden;
-}
-
-.carousel {
-  max-height: 600px;
-}
-
-.container-fluid {
-  padding: 3px;
 }
 
 .bajada {
