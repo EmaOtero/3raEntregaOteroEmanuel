@@ -1,15 +1,14 @@
 
 /*GALERIA-ZOOM IMAGENES ---------------------------------------------------------------------------------------------------------------------*/
-.img-hover-zoom {
+.imagen-galeria {
     cursor: pointer;
-    width: 500px;
     overflow: hidden;
 }
 
-.img-hover-zoom img {
+.galeria {
     transition: transform .5s ease;
 }
 
-.img-hover-zoom:hover img {
+.galeria:hover {
     transform: scale(1.020);
 }
