@@ -1,11 +1,10 @@
 
 /*GALERIA-ZOOM IMAGENES ---------------------------------------------------------------------------------------------------------------------*/
-.intro-galeria {
+.intro-titulo {
     height: 5rem;
     display: flex;
     justify-content: start;
     align-items: center;
-    border-radius: 1px solid red;
 }
 .imagen-galeria {
     cursor: pointer;
@@ -20,6 +19,6 @@
 }
 
 .galeria:hover {
-    transform: scale(1.020);
+    transform: scale(1.03) !important;
     filter: grayscale(0%);
 }

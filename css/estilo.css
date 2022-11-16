@@ -34,12 +34,11 @@
 }
 
 /*GALERIA-ZOOM IMAGENES ---------------------------------------------------------------------------------------------------------------------*/
-.intro-galeria {
+.intro-titulo {
   height: 5rem;
   display: flex;
   justify-content: start;
   align-items: center;
-  border-radius: 1px solid red;
 }
 
 .imagen-galeria {
@@ -55,7 +54,7 @@
 }
 
 .galeria:hover {
-  transform: scale(1.02);
+  transform: scale(1.03) !important;
   filter: grayscale(0%);
 }
 
@@ -98,10 +97,6 @@ header {
   background: url(../imgs/menu.svg);
 }
 
-/*.animacion-nav {
-    animation: fadeIn;
-    animation-duration: 2s;
-}*/
 /*HOVER PORTFOLIO----------------------------------------------------------------------------------------------------------------------------*/
 * {
   box-sizing: border-box;

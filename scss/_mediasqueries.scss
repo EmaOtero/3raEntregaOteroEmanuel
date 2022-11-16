@@ -1,0 +1,28 @@
+@media (max-width:767px) {
+    .galeria {
+        max-width: 80%;
+        margin:auto
+    }
+    .texto-lectura {
+        display: none;
+    }
+}
+
+
+@media (max-width:992px) {
+    .card {
+        max-width: 90%;
+        margin:auto
+    }
+    .texto-lectura {
+        display: none;
+    }
+}
+
+@media (max-width:620px) {
+    .footerContainer {
+        align-content: space-between;
+        margin:auto;
+        overflow-x: hidden;
+    }
+}
