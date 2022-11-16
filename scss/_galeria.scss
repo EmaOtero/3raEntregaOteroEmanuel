@@ -1,14 +1,25 @@
 
 /*GALERIA-ZOOM IMAGENES ---------------------------------------------------------------------------------------------------------------------*/
+.intro-galeria {
+    height: 5rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-radius: 1px solid red;
+}
 .imagen-galeria {
     cursor: pointer;
     overflow: hidden;
 }
 
 .galeria {
+    border-radius: 1rem;
+    max-width: 100%;
     transition: transform .5s ease;
+    filter: grayscale(30%);
 }
 
 .galeria:hover {
     transform: scale(1.020);
+    filter: grayscale(0%);
 }

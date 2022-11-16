@@ -34,7 +34,7 @@
 <body class="container-fluid">
   <header class="header-container container-fluid">
     <!--------------------------------------------------- INICIO NAV --------------------------------------------------------------------->
-    <nav class="navbar navbar-expand-lg bg-info text-white shadow-sm p-3 mb-5 rounded-bottom fixed-top">
+    <nav class="navbar navbar-expand-lg bg-info text-white shadow-sm p-3 mb-5 rounded-bottom fixed-top animacion-nav">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html"><img class="logo-navbar" style="height: 60px;" src="imgs/LOGO NAV.png"
             alt="logo"></a>
@@ -71,7 +71,9 @@
 
   
   <!-----------------------------------------------------INICIO HERO ----------------------------------------------------------------------->
-  <section class="hero d-flex flex-colunm align-items-center">
+  <section data-aos="fade-down"
+  data-aos-easing="linear"
+  data-aos-duration="1000" class="hero d-flex flex-colunm align-items-center">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-xl-6 col-md-8 col-sm-12 text-center">
@@ -81,7 +83,6 @@
 
           <p class="texto-lectura"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui beatae sed tempore! Porro facere esse aspernatur molestiae ad odit officia quo fuga accusamus illo modi, asperiores, numquam voluptates aliquam? Perferendis!</p> 
 
-          <a href="#">Contactame</a>
 
         </div>
         
@@ -100,7 +101,8 @@
   <main class="mt-5">
 
 
-    <div class="container-fluid">
+    <div data-aos="fade-up"
+    data-aos-duration="2000" class="container-fluid">
       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
