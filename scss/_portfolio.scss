@@ -5,9 +5,6 @@
     transform: scale(1.010);
     }
 
-.card {
-min-width: 500px;}
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -18,9 +15,9 @@ a {
 }
 
 .card {
-    background-size: contain;
-    background-repeat: no-repeat;
     background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 250px;
 }
 
 .card-body {
