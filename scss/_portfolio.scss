@@ -17,8 +17,8 @@ a {
 .card {
     background-size: cover;
     background-repeat: no-repeat;
-    min-width: 250px;
-}
+    min-width: 450px;
+  }
 
 .card-body {
     background: linear-gradient(0deg, rgba(0, 157, 255, 0.844) 0%, rgba(95, 215, 255, 0) 80%);
@@ -56,4 +56,8 @@ a {
 .stats-card {
     color: white;
     font-weight: normal;
+}
+
+.tercera-fila {
+    margin-top: 20px;
 }

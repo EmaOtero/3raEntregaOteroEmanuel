@@ -93,7 +93,7 @@ a {
 .card {
   background-size: cover;
   background-repeat: no-repeat;
-  min-width: 250px;
+  min-width: 450px;
 }
 
 .card-body {
@@ -132,6 +132,10 @@ a {
 .stats-card {
   color: white;
   font-weight: normal;
+}
+
+.tercera-fila {
+  margin-top: 20px;
 }
 
 .bajada {
