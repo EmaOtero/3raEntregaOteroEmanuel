@@ -1,14 +1,6 @@
 /*NAVBAR - HEADER ---------------------------------------------------------------------------------------------------------------------------*/
 
-.logo-navbar {
-    scale: 140%;
-}
-
-header {
-    margin-bottom: 130px;
-}
-
-.nav-link {
+@mixin navbar {
     margin-left: 7px;
     margin-right: 10px;
     font-size: 20px;
@@ -24,6 +16,18 @@ header {
         color: rgb(0, 183, 255);
         border-radius: 16px;
     }
+}
+
+.logo-navbar {
+    scale: 140%;
+}
+
+header {
+    margin-bottom: 130px;
+}
+
+.nav-link {
+    @include navbar
 }
 
 .navbar {
